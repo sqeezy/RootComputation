@@ -134,6 +134,7 @@ namespace RootComputation
                     b = c;
                 }
             }
+            return SolveRekursiv(a, b, epsilon);
         }
     }
 }
