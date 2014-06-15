@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,6 +27,11 @@ namespace RootComputation
         {
             //Hier code einfügen
             throw new NotImplementedException();
+        }
+
+        private void foo()
+        {
+            Func<int, int> a = i => i*i;
         }
     }
 }
